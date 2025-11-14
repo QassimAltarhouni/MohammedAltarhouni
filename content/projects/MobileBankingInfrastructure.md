@@ -9,6 +9,7 @@ tech:
   - REST APIs
   - Clean Architecture
 showInProjects: true
+company: 'Masarat Fintech'
 ---
 
 Infrastructure codebase for shared mobile banking components, including common
