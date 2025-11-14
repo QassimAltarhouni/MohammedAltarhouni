@@ -1,6 +1,6 @@
 ---
-date: '1'
-title: 'someFunwithPython – Mini Python Projects'
+date: '2025-04-01'
+title: 'SomeFunwithPython – Mini Python Projects'
 github: 'https://github.com/QassimAltarhouni/someFunwithPython.git'
 external: ''
 tech:

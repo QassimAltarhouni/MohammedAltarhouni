@@ -1,8 +1,7 @@
 ---
 date: '2025-11-01'
-title: 'Network Performance Estimation through RSA Prediction'
+title: 'Network Performance Estimation through RSA Prediction (inProgress) '
 github: 'https://github.com/QassimAltarhouni/PredNetRSA'
-external: ''
 tech:
   - Python
   - Machine Learning

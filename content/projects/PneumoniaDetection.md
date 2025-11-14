@@ -1,8 +1,7 @@
 ---
 date: '2025-11-01'
-title: 'Pneumonia Detection from Chest X-Rays'
-github: ''
-external: 'https://github.com/QassimAltarhouni/PneuDetect'
+title: 'Pneumonia Detection from Chest X-Rays (inProgress)'
+github: 'https://github.com/QassimAltarhouni/PneuDetect'
 tech:
   - Python
   - CNN

@@ -1,6 +1,6 @@
 ---
 date: '2016-04-01'
-title: 'grid – CSS Grid Practice'
+title: 'Grid – CSS Grid Practice'
 github: 'https://github.com/QassimAltarhouni/grid.git'
 external: 'https://qassimaltarhouni.github.io/grid/'
 tech:
