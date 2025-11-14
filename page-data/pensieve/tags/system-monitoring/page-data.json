@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/pensieve/tags/system-monitoring/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Technical Intern","description":null,"date":"2023-06-30","slug":null,"tags":["System Monitoring","Backend Diagnostics","Performance Optimization","Linux","Software Testing","Node.js (Automation Tools)"]}}}]}},"pageContext":{"tag":"System Monitoring"}},
+    "staticQueryHashes": ["1860341765","1994492073","3825832676","436449904"]}

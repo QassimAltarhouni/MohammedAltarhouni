@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/pensieve/tags/database-administration/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Data Migration Intern","description":null,"date":"2022-06-30","slug":null,"tags":["PL/SQL","Operational Data Pipelines","Database Administration","Banking IT Infrastructure","Python (ETL Scripts)","Troubleshooting"]}}}]}},"pageContext":{"tag":"Database Administration"}},
+    "staticQueryHashes": ["1860341765","1994492073","3825832676","436449904"]}

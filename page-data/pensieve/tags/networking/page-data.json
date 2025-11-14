@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/pensieve/tags/networking/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Lead Engineer","description":null,"date":"2017-07-01","slug":null,"tags":["Oracle Database","FLEXCUBE Core Banking","Java","PL/SQL","Networking","Security","Systems Administration","Troubleshooting"]}}}]}},"pageContext":{"tag":"Networking"}},
+    "staticQueryHashes": ["1860341765","1994492073","3825832676","436449904"]}
