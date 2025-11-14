@@ -1,7 +1,8 @@
 ---
-date: '2025-11-01'
-title: 'Network Performance Estimation through RSA Prediction (inProgress) '
+date: '2025-11-14'
+title: 'Network Performance Estimation through RSA Prediction (inProgress)'
 github: 'https://github.com/QassimAltarhouni/PredNetRSA'
+external: ''
 tech:
   - Python
   - Machine Learning
@@ -12,6 +13,4 @@ showInProjects: true
 company: 'Wrocław University of Science and Technology'
 ---
 
-Project focused on **predicting RSA (Routing and Spectrum Assignment) performance metrics** in **Elastic Optical Networks (EONs)**.
-
-The approach uses **machine learning regression models** (Linear Regression, Random Forest, Neural Networks) to estimate metrics (e.g., total occupied slots, transceiver count) based on traffic matrices and topology. This method aims to provide near-real-time network design and optimization, achieving results **significantly faster than traditional full simulations**. The implementation utilizes **Python** with **Scikit-learn** and **Pandas** for data processing.
+Machine learning project focused on **predicting RSA metrics** (Routing and Spectrum Assignment) in **Elastic Optical Networks (EONs)**. Uses **regression models** (Linear Regression, Random Forest) to estimate performance metrics (e.g., utilization, transceiver count) based on network traffic and topology. Enables **near-real-time network optimization** by estimating results **significantly faster than full simulations**.
