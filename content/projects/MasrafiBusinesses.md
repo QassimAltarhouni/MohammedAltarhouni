@@ -1,5 +1,5 @@
 ---
-date: '20-12-2023'
+date: '2023-12-12'
 title: 'Masrafi Businesses – Corporate Banking'
 cover: './masrafi-business.png'
 github: ''

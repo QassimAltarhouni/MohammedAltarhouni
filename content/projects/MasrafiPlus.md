@@ -1,5 +1,5 @@
 ---
-date: '20-12-2021'
+date: '2021-12-12'
 title: 'Masrafi Plus – Mobile Banking App'
 cover: './masrafi-plus.png'
 github: ''

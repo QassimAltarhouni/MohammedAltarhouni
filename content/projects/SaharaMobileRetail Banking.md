@@ -1,5 +1,5 @@
 ---
-date: '20-12-2022'
+date: '2022-12-12'
 title: 'Sahara Mobile – Retail Banking'
 cover: './sahara-mobile.png'
 github: ''
