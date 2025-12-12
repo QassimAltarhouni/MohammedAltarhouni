@@ -265,7 +265,9 @@ const StyledProject = styled.li`
       vertical-align: middle;
 
       &:hover,
-      &:focus {
+      &:focus,
+      &:focus-visible,
+      &:active {
         background: transparent;
         outline: 0;
 
