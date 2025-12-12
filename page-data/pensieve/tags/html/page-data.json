@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tag-js",
     "path": "/pensieve/tags/html/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"frontmatter":{"title":"Full-Stack Developer","description":null,"date":"2024-12-31","slug":null,"tags":["JavaScript","TypeScript","Angular","Dart","Flutter","Android","iOS","Node.js","Python (Automation)","REST APIs","Swagger API","SQL Server","MySQL","HTML","CSS","CI/CD","Authentication & Security","Software Testing"]}}},{"node":{"frontmatter":{"title":"Oracle Banking Consultant","description":null,"date":"2019-02-01","slug":null,"tags":["JavaScript","HTML","CSS","Java","SQL","PL/SQL","Oracle FLEXCUBE","Core Banking Systems","Systems Integration","RTGS","ACH","SWIFT","Software Testing","UAT","Troubleshooting"]}}}]}},"pageContext":{"tag":"HTML"}},
-    "staticQueryHashes": ["1860341765","1994492073","3825832676","436449904"]}
+    "staticQueryHashes": ["1860341765","1985415827","1994492073","3825832676","436449904"]}
