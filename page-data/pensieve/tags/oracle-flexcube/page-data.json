@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tag-js",
     "path": "/pensieve/tags/oracle-flexcube/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Oracle Banking Consultant","description":null,"date":"2019-02-01","slug":null,"tags":["JavaScript","HTML","CSS","Java","SQL","PL/SQL","Oracle FLEXCUBE","Core Banking Systems","Systems Integration","RTGS","ACH","SWIFT","Software Testing","UAT","Troubleshooting"]}}}]}},"pageContext":{"tag":"Oracle FLEXCUBE"}},
-    "staticQueryHashes": ["1860341765","1994492073","3825832676","436449904"]}
+    "staticQueryHashes": ["1994492073","2031412112","3825832676","436449904"]}

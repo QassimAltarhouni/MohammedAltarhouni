@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tag-js",
     "path": "/pensieve/tags/i-os/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Full-Stack Developer","description":null,"date":"2024-12-31","slug":null,"tags":["JavaScript","TypeScript","Angular","Dart","Flutter","Android","iOS","Node.js","Python (Automation)","REST APIs","Swagger API","SQL Server","MySQL","HTML","CSS","CI/CD","Authentication & Security","Software Testing"]}}}]}},"pageContext":{"tag":"iOS"}},
-    "staticQueryHashes": ["1860341765","1994492073","3825832676","436449904"]}
+    "staticQueryHashes": ["1994492073","2031412112","3825832676","436449904"]}
