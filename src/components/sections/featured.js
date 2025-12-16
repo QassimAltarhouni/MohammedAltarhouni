@@ -160,7 +160,6 @@ const StyledProject = styled.li`
     background-color: var(--light-navy);
     color: var(--light-slate);
     font-size: var(--fz-lg);
-    text-align: left;
 
     @media (max-width: 768px) {
       padding: 20px 0;
@@ -190,7 +189,6 @@ const StyledProject = styled.li`
     margin: 25px 0 10px;
     padding: 0;
     list-style: none;
-    text-align: left;
 
     li {
       margin: 0 20px 5px 0;
@@ -198,7 +196,6 @@ const StyledProject = styled.li`
       font-family: var(--font-mono);
       font-size: var(--fz-xs);
       white-space: nowrap;
-      text-align: left;
     }
 
     @media (max-width: 768px) {
@@ -207,7 +204,6 @@ const StyledProject = styled.li`
       li {
         margin: 0 10px 5px 0;
         color: var(--lightest-slate);
-        text-align: left;
       }
     }
   }
@@ -254,9 +250,7 @@ const StyledProject = styled.li`
     @media (max-width: 768px) {
       grid-column: 1 / -1;
       height: 100%;
-      &:not(:hover):not(:focus-within) {
-        opacity: 0.25;
-      }
+      opacity: 0.25;
     }
 
     a {
@@ -267,9 +261,7 @@ const StyledProject = styled.li`
       vertical-align: middle;
 
       &:hover,
-      &:focus,
-      &:focus-visible,
-      &:active {
+      &:focus {
         background: transparent;
         outline: 0;
 
@@ -311,7 +303,6 @@ const StyledProject = styled.li`
   }
 `;
 
-
 const Featured = () => {
   const data = useStaticQuery(graphql`
     {
@@ -330,9 +321,6 @@ const Featured = () => {
               }
               tech
               github
-              github2
-              ios
-              android
               external
               cta
             }
@@ -367,17 +355,7 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const {
-              external,
-              title,
-              tech,
-              github,
-              github2,
-              ios,
-              android,
-              cover,
-              cta,
-            } = frontmatter;
+            const { external, title, tech, github, cover, cta } = frontmatter;
             const image = getImage(cover);
 
             return (
@@ -387,8 +365,7 @@ const Featured = () => {
                     <p className="project-overline">Featured Project</p>
 
                     <h3 className="project-title">
-                      {/* Link title to external, github, or default to # */}
-                      <a href={external || github || '#'}>{title}</a>
+                      <a href={external}>{title}</a>
                     </h3>
 
                     <div
@@ -396,62 +373,25 @@ const Featured = () => {
                       dangerouslySetInnerHTML={{ __html: html }}
                     />
 
-                    {/* Project Tech List */}
-                    {tech && tech.length > 0 && (
+                    {tech.length && (
                       <ul className="project-tech-list">
-                        {tech.map((techItem, j) => (
-                          <li key={j}>{techItem}</li>
+                        {tech.map((tech, i) => (
+                          <li key={i}>{tech}</li>
                         ))}
                       </ul>
                     )}
 
                     <div className="project-links">
-                      {/* CTA/Learn More Link */}
                       {cta && (
                         <a href={cta} aria-label="Course Link" className="cta">
                           Learn More
                         </a>
                       )}
-
-                      {/* Primary GitHub Repo Link */}
                       {github && (
-                        <a href={github} aria-label="GitHub Link (Main)">
+                        <a href={github} aria-label="GitHub Link">
                           <Icon name="GitHub" />
                         </a>
                       )}
-
-                      {/* Secondary GitHub Repo Link */}
-                      {github2 && (
-                        <a href={github2} aria-label="GitHub Link (Secondary)">
-                          <Icon name="GitHub" />
-                        </a>
-                      )}
-
-                      {/* iOS App Store Link */}
-                      {ios && (
-                        <a
-                          href={ios}
-                          aria-label="iOS App Store Link"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Icon name="AppStore" />
-                        </a>
-                      )}
-
-                      {/* Android Play Store Link */}
-                      {android && (
-                        <a
-                          href={android}
-                          aria-label="Google Play Store Link"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Icon name="PlayStore" />
-                        </a>
-                      )}
-
-                      {/* External Website Link (only show if not using CTA) */}
                       {external && !cta && (
                         <a href={external} aria-label="External Link" className="external">
                           <Icon name="External" />
@@ -462,8 +402,7 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  {/* Link image to external, github, or default to # */}
-                  <a href={external || github || '#'}>
+                  <a href={external ? external : github ? github : '#'}>
                     <GatsbyImage image={image} alt={title} className="img" />
                   </a>
                 </div>
