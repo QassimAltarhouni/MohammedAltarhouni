@@ -254,7 +254,9 @@ const StyledProject = styled.li`
     @media (max-width: 768px) {
       grid-column: 1 / -1;
       height: 100%;
-      opacity: 0.25;
+      &:not(:hover):not(:focus-within) {
+        opacity: 0.25;
+      }
     }
 
     a {
