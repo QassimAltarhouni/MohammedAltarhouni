@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'Unibot — AI University Chatbot'
-cover: './unibot.png'
+cover: './cover.png'
 github: 'https://github.com/QassimAltarhouni/unibot-frontend'
 github2: 'https://github.com/QassimAltarhouni/unibot-backend.git'
 tech:

@@ -105,3 +105,18 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
     },
   });
 };
+
+// --- FIX: FORCE GATSBY TO TREAT COVER AS A FILE ---
+// This tells Gatsby explicitly: "The 'cover' field is a File, not a String."
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter
+    }
+    type Frontmatter {
+      title: String
+      cover: File @fileByRelativePath
+    }
+  `);
+};

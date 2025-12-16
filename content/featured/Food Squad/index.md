@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'Food Squad – Sushi Bar'
-cover: './foodsquad.png'
+cover: './cover.png'
 github: 'https://github.com/QassimAltarhouni/FoodApp-main.git'
 github2: 'https://github.com/QassimAltarhouni/sushi-bar-api.git'
 live: ''

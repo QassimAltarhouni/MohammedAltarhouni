@@ -1,7 +1,7 @@
 ---
 date: '4'
 title: '5G Tower Optimizer – Coverage Analysis & Deployment Planning'
-cover: './5goptimizer.png'
+cover: './cover.png'
 github: 'https://github.com/QassimAltarhouni/5G-TowerOptimizer'
 live: ''
 tech:

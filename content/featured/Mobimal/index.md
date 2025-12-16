@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'MobiMal – Mobile Banking App'
-cover: './mobimal.png'
+cover: './cover.png'
 github: ''
 android: 'https://play.google.com/store/apps/details?id=mitt.NCBBank'
 ios: 'https://apps.apple.com/us/app/mobimal-%D9%85%D9%88%D8%A8%D9%8A-%D9%85%D8%A7%D9%84/id1178976867'
