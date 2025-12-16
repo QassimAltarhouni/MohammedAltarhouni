@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tag-js",
     "path": "/pensieve/tags/linux/",
     "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Technical Intern","description":null,"date":"2023-06-30","slug":null,"tags":["System Monitoring","Backend Diagnostics","Performance Optimization","Linux","Software Testing","Node.js (Automation Tools)"]}}}]}},"pageContext":{"tag":"Linux"}},
-    "staticQueryHashes": ["1860341765","1985415827","1994492073","3825832676","436449904"]}
+    "staticQueryHashes": ["1860341765","1994492073","3825832676","436449904"]}
